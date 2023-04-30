@@ -29,6 +29,13 @@ export const Footer = () => {
                                 <a href='#'>Блог на Youtube</a>
                                 <a href='#'>Вопрос / Ответ</a>
                             </div>
+                            <div className='footer__menu-right-block-mobile'>
+                                <a href='#'>Благодарность клиентов</a>
+                                <a href='#'>Кейсы</a>
+                                <a href='#'>Сертификаты</a>
+                                <a href='#'>Блог на Youtube</a>
+                                <a href='#'>Вопрос / Ответ</a>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -51,8 +58,11 @@ export const Footer = () => {
 
             <div className='footer__copyright'>
                 <p>©WELBEX 2022. Все права защищены.</p>
-                <p>Политика конфиденциальности</p>
+                <a href='#'>Политика конфиденциальности</a>
             </div>
+
+            <p className="footer__first-ball-mobile"/>
+            <p className="footer__second-ball-mobile"/>
 
         </footer>
     )

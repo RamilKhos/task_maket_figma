@@ -28,6 +28,12 @@ export const Main = () => {
                         <p>использования <br/> CRM</p>
                     </div>
                 </div>
+                <div className="main__right-block-description-mobile">
+                    <h3>SCYPE АУДИТ</h3>
+                    <h3>30 ВИДЖЕТОВ</h3>
+                    <h3>DASHBOARD</h3>
+                    <h3>МЕСЯЦ AMOCRM</h3>
+                </div>
 
                 <button type="button" className="main__btn">Получить консультацию</button>
             </div>
